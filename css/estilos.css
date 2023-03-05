@@ -17,7 +17,6 @@ header{
     float: left;
     color: #08415C;
     font-size: 45px;
-    padding: 1px;
 }
 
 .navbar-brand:hover {
@@ -28,7 +27,6 @@ header{
 .navbar navbar-expand-lg{
     width: 70%;
     height: 70px;
-    padding-top: 20px;
     color: #FFAFC5;
 }
 
@@ -50,7 +48,6 @@ header{
 main{
     margin: 0;
     border-top: 20px;
-    padding: 75px;
     text-align: center;
     background: #f0cfda;    
 }
@@ -68,8 +65,9 @@ main section{
 /* Texto de introducción - Desktop */
 .conteint{
     font-size: 30px;
-    padding: 70px;
     background: #8aceb9;
+    margin: 0;
+    padding: 0;
 }
 
 /* Ubicación - Desktop */
