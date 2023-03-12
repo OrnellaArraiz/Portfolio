@@ -117,12 +117,13 @@ article ul .lista{
 /* Pie de pagina - Desktop */
 footer{
     background: #ed9ba1;
-    height: 70px;
+    height: 80px;
+    padding-top: 15px;
+    margin: auto;
 }
 
 .logo-gmail{ 
     display: flex;
-    flex-flow: row;
     justify-content:center;
     font-family: 'Bree serif', serif;
     font-size: 20px;
@@ -130,13 +131,13 @@ footer{
 }
 
 .logo-gmail img {
-    width:35px;
-    height:30px; 
+    width: 30px;
+    height:25px; 
 }
 
 /* Copyrigth - Desktop */
 .small{
-    margin-top: 0;
+    padding-top: 0;
     text-align: center;
     align-items: center;
 }
