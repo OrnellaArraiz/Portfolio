@@ -7,10 +7,10 @@
     box-sizing: border-box;
 }
 
-/* Fondo del menú de navegación - Desktop */
+/* Fondo del menú de navegación  */
 header{
     width: 100%;
-    height: 70px;
+    height: 100px;
     background-color: #ed9ba1;
 }
 
@@ -25,14 +25,14 @@ header{
     color: #dcff18;
 }
 
-/* Menú de navegación - Desktop */
+/* Menú de navegación */
 .navbar navbar-expand-lg{
     width: 70%;
     height: 70px;
     color: #FFAFC5;
 }
 
-/* Lista de navegación horizontal - Desktop */
+/* Lista de navegación horizontal */
 
 .nav-link{
     font-size: 20px;
@@ -46,7 +46,7 @@ header{
     color:#dcff18
 }
 
-/* Título - Desktop */
+/* Título */
 main{
     margin: 0;
     border-top: 20px;
@@ -64,7 +64,7 @@ main section{
     font-size: 30px;
 }
 
-/* Texto de introducción - Desktop */
+/* Texto de introducción */
 .conteint{
     font-size: 30px;
     background: #8aceb9;
@@ -72,14 +72,14 @@ main section{
     padding: 0;
 }
 
-/* Ubicación - Desktop */
+/* Ubicación */
 .section-2{
     font-size: 25px;
     margin-bottom: 25px;
     text-align:center
 }
 
-/* Mapa - Desktop */
+/* Mapa */
 .article-2{
     display: flex;
     justify-content: center;
@@ -88,14 +88,14 @@ main section{
     padding: 20px;
 }
 
-/* Texto sobre mi - Desktop */
+/* Texto sobre mi */
 .parrafo{
     font-size: 20px;
     display: inline-block;
     white-space: pre-line;
 }
 
-/* Listado de Formación - Desktop */
+/* Listado de Formación */
 article ul .lista{
     text-decoration: none;
 }
@@ -109,18 +109,60 @@ article ul .lista{
     text-align: justify;
 }
 
-/* Formulario de contacto - Desktop */
-.contact{
-    margin: 5px;
-    border: 5px;
-    padding: 5px;
+/* Formulario de contacto */
+.form{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
-/* Pie de pagina - Desktop */
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    border: 2px solid #f0faf1;
+    outline: none;
+}
+
+input::placeholder{
+    color: #b5cab6;
+}
+
+.btn{
+    font-size: 16px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px){
+    .form{
+        padding: 50px 30px;
+        width: 100%;
+    }    
+
+    .input{
+        padding: 15px;
+    }
+}
+
+/* Pie de pagina */
 footer{
     background: #ed9ba1;
     height: 80px;
-    padding-top: 15px;
+    padding-top: 7px;
     margin: auto;
 }
 
@@ -137,7 +179,7 @@ footer{
     height:25px; 
 }
 
-/* Copyrigth - Desktop */
+/* Copyrigth */
 .small{
     padding-top: 0;
     text-align: center;
