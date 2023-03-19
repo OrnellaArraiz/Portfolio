@@ -1,0 +1,23 @@
+@use './variables';
+footer{
+    background: variables.$header-color;
+    height: 80px;
+    padding-top: 7px;
+    margin: auto;
+    logo-gmail{ 
+        display: flex;
+        justify-content:center;
+        font-family: variables.$font-family;
+        font-size: 20px;
+        color: black;
+    }
+        img {
+            width: 30px;
+            height:25px; 
+        }
+        small{
+            padding-top: 0;
+            text-align: center;
+            align-items: center;
+        }        
+}
