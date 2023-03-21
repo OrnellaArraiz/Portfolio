@@ -22,7 +22,7 @@ header:hover {
 header navbar-expand-lg {
   width: 70%;
   height: 70px;
-  color: #FFAFC5;
+  color: #E6F9AF;
 }
 header nav-link {
   font-size: 20px;
@@ -37,7 +37,7 @@ header:hover {
 
 main {
   margin: 0;
-  border-top: 20px;
+  border: 0;
   text-align: center;
   background: #f0cfda;
 }
@@ -116,10 +116,10 @@ form .input-group::placeholder {
   cursor: pointer;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 765px) {
   form {
     padding: 50px 30px;
-    width: 100%;
+    width: 50%;
   }
   form input {
     padding: 15px;
