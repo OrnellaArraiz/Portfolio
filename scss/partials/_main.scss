@@ -3,11 +3,11 @@ main{
     border: 0;
     text-align: center;
     background: #f0cfda;
-    section{
-        margin: 50px;
+    .section-1{
+        margin: 0px;
         padding-bottom: 40px;
     }
-        article-1{
+        .article-1{
             padding-bottom: 20px;
             font-size: 30px;
             div{
@@ -25,12 +25,12 @@ main{
          
         }
         
-    section-2{
+    .section-2{
         font-size: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 0px;
         text-align:center
     }
-    article-2{
+    .article-2{
         display: flex;
         justify-content: center;
         background: #d9b2e9;

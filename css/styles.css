@@ -11,6 +11,10 @@ header {
   height: 100px;
   background-color: #ed9ba1;
 }
+header #navbarNav {
+  text-align: center;
+  z-index: 1;
+}
 header navbar-brand {
   float: left;
   color: #08415C;
@@ -41,31 +45,31 @@ main {
   text-align: center;
   background: #f0cfda;
 }
-main section {
-  margin: 50px;
+main .section-1 {
+  margin: 0px;
   padding-bottom: 40px;
 }
-main article-1 {
+main .article-1 {
   padding-bottom: 20px;
   font-size: 30px;
 }
-main article-1 div {
+main .article-1 div {
   font-size: 30px;
   background: #8aceb9;
   margin: 0;
   padding: 0;
 }
-main article-1 div p {
+main .article-1 div p {
   font-size: 20px;
   display: inline-block;
   white-space: pre-line;
 }
-main section-2 {
+main .section-2 {
   font-size: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   text-align: center;
 }
-main article-2 {
+main .article-2 {
   display: flex;
   justify-content: center;
   background: #d9b2e9;
@@ -84,28 +88,33 @@ article-1 ul li {
 }
 
 form {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  padding-left: 30%;
+  padding-right: 30%;
+  width: 50%;
+  height: 50%;
 }
 form .input-group {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
 }
-form .input-group label {
+form label {
   font-size: 15px;
-  font-weight: 600px;
+  font-weight: 500px;
   margin-bottom: 15px;
 }
-form .input-group input, form .input-group textarea {
+form input, form textarea {
   padding: 17px 25px;
   border-radius: 25px;
   margin-bottom: 20px;
   border: 2px solid #f0faf1;
   outline: none;
 }
-form .input-group::placeholder {
+form::placeholder {
   color: #b5cab6;
 }
 
@@ -113,18 +122,8 @@ form .input-group::placeholder {
   font-size: 16px;
   border: 0;
   border-radius: 25px;
-  cursor: pointer;
 }
 
-@media (max-width: 765px) {
-  form {
-    padding: 50px 30px;
-    width: 50%;
-  }
-  form input {
-    padding: 15px;
-  }
-}
 footer {
   background: #ed9ba1;
   height: 80px;
