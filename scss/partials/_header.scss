@@ -1,33 +1,39 @@
 @use './variables';
 header{
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-color: variables.$header-color;
-    #navbarNav{
+}
+
+/* Nombre */
+.navbar-brand{
+    float: left;
+    color: #08415C;
+    font-size: 35px;
+    
+    &:hover {
+        color: variables.$hover-color;
+    }
+}
+
+/* Menú de navegación */
+.navbar-expand-lg{
+    width: 100%;
+    height: 70%;
+    color: #FFAFC5;
+
+    /* Lista de navegación horizontal */
+    .nav-link{
+        font-size: 18px;
+        text-decoration: none;
+        font-family: cursive;
+        letter-spacing: 1px;
+        font-family: variables.$font-family;
         text-align: center;
         z-index: 1;
-    }
-    navbar-brand{
-        float:left;
-        color: #08415C;
-        font-size: 45px;
-    }   
+
         &:hover {
-            color: variables.$hover-color;
+            color:variables.$hover-color;
         }
-        navbar-expand-lg{
-            width: 70%;
-            height: 70px;
-            color: #E6F9AF;
-        }     
-        nav-link{
-            font-size: 20px;
-            text-decoration: none;
-            font-family: cursive;
-            letter-spacing: 1px;
-            font-family: variables.$font-family;
-            }
-            &:hover {
-                color:variables.$hover-color;
-            }
+    }
 }

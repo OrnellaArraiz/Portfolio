@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Bree Serif", serif;
   margin: 0;
@@ -8,34 +9,37 @@
 
 header {
   width: 100%;
-  height: 100px;
+  height: 100%;
   background-color: #ed9ba1;
 }
-header #navbarNav {
-  text-align: center;
-  z-index: 1;
-}
-header navbar-brand {
+
+/* Nombre */
+.navbar-brand {
   float: left;
   color: #08415C;
-  font-size: 45px;
+  font-size: 35px;
 }
-header:hover {
+.navbar-brand:hover {
   color: #dcff18;
 }
-header navbar-expand-lg {
-  width: 70%;
-  height: 70px;
-  color: #E6F9AF;
+
+/* Menú de navegación */
+.navbar-expand-lg {
+  width: 100%;
+  height: 70%;
+  color: #FFAFC5;
+  /* Lista de navegación horizontal */
 }
-header nav-link {
-  font-size: 20px;
+.navbar-expand-lg .nav-link {
+  font-size: 18px;
   text-decoration: none;
   font-family: cursive;
   letter-spacing: 1px;
   font-family: "Bree Serif", serif;
+  text-align: center;
+  z-index: 1;
 }
-header:hover {
+.navbar-expand-lg .nav-link:hover {
   color: #dcff18;
 }
 
@@ -44,6 +48,7 @@ main {
   border: 0;
   text-align: center;
   background: #f0cfda;
+  font-size: 20px;
 }
 main .section-1 {
   margin: 0px;
@@ -53,19 +58,19 @@ main .article-1 {
   padding-bottom: 20px;
   font-size: 30px;
 }
-main .article-1 div {
-  font-size: 30px;
+main .article-1 .conteint {
+  font-size: 20px;
   background: #8aceb9;
   margin: 0;
   padding: 0;
 }
-main .article-1 div p {
+main .article-1 .conteint .parrafo {
   font-size: 20px;
   display: inline-block;
   white-space: pre-line;
 }
 main .section-2 {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 0px;
   text-align: center;
 }
@@ -77,14 +82,14 @@ main .article-2 {
   padding: 20px;
 }
 
-article-1 ul li {
+.section-1 .article-2 .parrafo {
   text-decoration: none;
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   margin-left: 50px;
   margin-right: 50px;
-  text-align: justify;
+  text-align: center;
 }
 
 form {
@@ -130,7 +135,7 @@ footer {
   padding-top: 7px;
   margin: auto;
 }
-footer logo-gmail {
+footer .logo-gmail {
   display: flex;
   justify-content: center;
   font-family: "Bree Serif", serif;
@@ -141,7 +146,7 @@ footer img {
   width: 30px;
   height: 25px;
 }
-footer small {
+footer .small {
   padding-top: 0;
   text-align: center;
   align-items: center;

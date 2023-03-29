@@ -1,14 +1,21 @@
-article-1{
-    ul{
-        li{
+@use './variables';
+
+.section-1{
+    .article-2{
+        .parrafo{
             text-decoration: none;
             list-style: none;
-            font-size: 30px;
+            font-size: variables.$font-size;
             font-weight: bold;
             margin-left: 50px;
             margin-right: 50px;
-            text-align: justify;
-        }
+            text-align: center;
+        }     
     }
-    
-} 
+}
+
+
+        
+      
+
+

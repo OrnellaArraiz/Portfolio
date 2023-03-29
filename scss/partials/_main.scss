@@ -1,8 +1,11 @@
+@use './variables';
+
 main{
     margin: 0;
     border: 0;
     text-align: center;
     background: #f0cfda;
+    font-size: variables.$font-size;
     .section-1{
         margin: 0px;
         padding-bottom: 40px;
@@ -10,25 +13,25 @@ main{
         .article-1{
             padding-bottom: 20px;
             font-size: 30px;
-            div{
-                font-size: 30px;
+            .conteint{
+                font-size: variables.$font-size;
                 background: #8aceb9;
                 margin: 0;
                 padding: 0;
-                    p{
-                        font-size: 20px;
-                        display: inline-block;
-                        white-space: pre-line;
-                    }
+                .parrafo{
+                    font-size: variables.$font-size;
+                    display: inline-block;
+                    white-space: pre-line;
+                }
                      
             }          
          
         }
         
     .section-2{
-        font-size: 25px;
+        font-size: variables.$font-size;
         margin-bottom: 0px;
-        text-align:center
+        text-align:center;
     }
     .article-2{
         display: flex;
